@@ -8,6 +8,9 @@ In this section convert the information into vectors and store it in local.
 
 Note:
     1. In the data folder there is a sample pdf for the testing you can use it ex. industan_tims.pdf
+    2. Currently I'm using the "models/embedding-001" embedding model in feature it will be changed by the google
+       please check here https://ai.google.dev/gemini-api/docs/embeddings
+    3. I'm using the `gemini-pro` model for the LLM we cna Use the trend on also like `gemini-1.5-flash`
 """
 import os
 import streamlit as st
