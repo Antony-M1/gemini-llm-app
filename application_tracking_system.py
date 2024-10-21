@@ -1,6 +1,12 @@
 """
 README
-End To End Resume Application Tracking System(ATS) Using Google Gemini Pro Visio
+End To End Resume Application Tracking System(ATS) Using Google Gemini Pro Vision
+
+The Approach
+
+PDF --> Image --> Info --> Gemini API --> Response
+
+In this project the data converted as a image then try to retrive data from that and analysis results.
 
 Note:
     1. the `gemini-pro-vision` model is deprecated use the `gemini-1.5-flash`
