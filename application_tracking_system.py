@@ -110,7 +110,7 @@ the job description. First the output should come as percentage and then keyword
 """ # noqa
 
 input_prompt4 = """
-just answe the user query if the answer is not present just say the answer is not there don't provide 
+just answe the user query if the answer is not present just say the answer is not there don't provide
 wrong information.
 """
 
