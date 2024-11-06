@@ -92,6 +92,7 @@ orjson==3.10.7
 overrides==7.7.0
 packaging==24.1
 pandas==2.2.3
+pathlib==1.0.1
 pdf2image==1.17.0
 pillow==10.4.0
 posthog==3.7.0
@@ -150,4 +151,5 @@ websocket-client==1.8.0
 websockets==13.1
 wrapt==1.16.0
 yarl==1.15.2
+youtube-transcript-api==0.6.2
 zipp==3.20.2
