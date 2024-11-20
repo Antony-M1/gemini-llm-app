@@ -29,7 +29,7 @@ def get_prompt(context, tone):
 
     ### Here is the mail tone:
     {tone}
-    """.format(context=context, tone=tone)
+    """.format(context=context, tone=tone) # noqa
     return prompt
 
 
