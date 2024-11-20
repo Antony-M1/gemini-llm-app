@@ -12,7 +12,7 @@ load_dotenv(override=True)
 
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
-model = genai.GenerativeModel("gemini-1.5-flash")  # Note: gemini-pro-vision is deprecated
+model = genai.GenerativeModel("gemini-1.5-flash-8b")  # Note: gemini-pro-vision is deprecated
 
 
 def get_gemini_response(prompt):
@@ -29,6 +29,8 @@ def get_prompt(context, tone):
 
     ### Here is the mail tone:
     {tone}
+    
+    Note: provide content like I saying, The response going from me.
     """.format(context=context, tone=tone) # noqa
     return prompt
 
